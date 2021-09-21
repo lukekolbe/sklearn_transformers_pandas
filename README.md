@@ -1,7 +1,7 @@
 Install with:
 
 ```
-pip install sklearn-pandas-transformers
+pip install git+https://github.com/lukekolbe/sklearn_transformers_pandas
 ```
 
 
@@ -10,7 +10,7 @@ The main use of this package is to use Sklearn Pipeline with transformer / estim
 1 - Use sklearn Pipeline with transformation on Y:
 
 ```python
-from sklearn_pandas_transformers.transformers import SplitXY, EstimatorWithoutYWrapper, SklearnPandasWrapper
+from sklearn_transformers_pandas.transformers import SplitXY, EstimatorWithoutYWrapper, SklearnPandasWrapper
 
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import StandardScaler
