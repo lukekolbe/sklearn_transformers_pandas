@@ -1,5 +1,7 @@
 Install with:
 
+All credit goes to https://gitlab.com/thibaultB for developing this package. Only minor changes to dependencies have been done here.
+
 ```
 pip install git+https://github.com/lukekolbe/sklearn_transformers_pandas
 ```
