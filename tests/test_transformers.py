@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from sklearn_pandas_transformers.transformers import SimilarColumns, SklearnPandasWrapper, SplitXY, EstimatorWithoutYWrapper
+from sklearn_transformers_pandas.transformers import SimilarColumns, SklearnPandasWrapper, SplitXY, EstimatorWithoutYWrapper
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.pipeline import Pipeline
 from sklearn.impute import KNNImputer
